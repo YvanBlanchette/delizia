@@ -1,0 +1,50 @@
+@import url('./style.css');
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.confirm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-inline: auto;
+  margin-top: -50px;
+
+  text-align: center;
+  width: 80%;
+  border: 4px dotted var(--clr-primary-400);
+}
+
+.form-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (width < 735px) {
+  .confirm {
+    width: 90%;
+  }
+
+  .form-buttons-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}

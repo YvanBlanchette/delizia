@@ -1,0 +1,29 @@
+@import url('./style.css');
+@import url('./reservation.css');
+
+.booking__page-wrapper {
+  min-height: calc(100vh - 220.4px);
+}
+
+.confirmation h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.confirmation p {
+  text-align: justify;
+}
+
+.confirmation p span {
+  color: var(--clr-secondary);
+}
+
+.confirmation p a {
+  color: var(--clr-secondary);
+  transition: 350ms ease;
+}
+
+.confirmation p a:hover {
+  color: var(--clr-primary);
+}
